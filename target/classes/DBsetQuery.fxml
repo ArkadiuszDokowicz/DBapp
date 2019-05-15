@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:controller="database.SetQueryController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #66B0FA;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="Userquery" layoutX="42.0" layoutY="70.0" prefHeight="42.0" prefWidth="485.0" />
+      <Label layoutX="42.0" layoutY="28.0" prefHeight="17.0" prefWidth="148.0" text="Enter your Query:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button onMouseClicked="#executeQuerry" layoutX="42.0" layoutY="122.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" text="Execute" />
+   </children>
+</AnchorPane>
